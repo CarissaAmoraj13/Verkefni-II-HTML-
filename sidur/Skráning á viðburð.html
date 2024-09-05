@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skráning á viðburði</title>
+</head>
+<body>
+     <!--Valmynd-->
+  <header>
+    <a href="/index.html">Forsíða Spilabúðarinnar</a>
+    <a href="spil.html">Spil</a>
+    <a href="viðburðasíðu.html">Viðburðir</a>
+    <a href="Skráning á viðburð.html">Skráning á viðburði</a>
+   <hr>
+</header>
+       
+    <h1>Skráning á Viðburði</h1>
+    <hr>
+    <p>Skráðu þig á viðburði hjá okkur!</p>
+    <hr>
+    <h2>Viðburðir</h2>
+
+    <!--Lists-->
+    <ul>
+        <li>Hvaða viðburð vilu koma á?
+           <form>
+            <select name="Viðburðir">
+                <option value="">Púslukvöld</option>
+                <option value="">Ticket to Ride</option>
+            </select>
+        </form>
+        </li>
+
+        <li>Hvenær?
+            <input type="date">
+        </li>
+
+        <li>Klukkan hvað?</li> 
+            <form>
+                <label for="from-time">Frá:</label>
+                <select id="from-time" name="from-time">
+                    <option value="10:00">10:00</option>
+                    <option value="11:00">11:00</option>
+                    <option value="12:00">12:00</option>
+                    <option value="13:00">13:00</option>
+                    <option value="14:00">14:00</option>
+                    <option value="15:00">15:00</option>
+                    <option value="16:00">16:00</option>
+                    <option value="17:00">17:00</option>
+                    <option value="18:00">18:00</option>
+                    <option value="19:00">19:00</option>
+                    <option value="20:00">20:00</option>
+                    <option value="21:00">21:00</option>
+                    <option value="22:00">22:00</option>
+                    <option value="23:00">23:00</option>
+                    <option value="00:00">00:00</option>
+                </select>
+        
+                <label for="to-time">Til:</label>
+                <select id="to-time" name="to-time">
+                    <option value="10:00">10:00</option>
+                    <option value="11:00">11:00</option>
+                    <option value="12:00">12:00</option>
+                    <option value="13:00">13:00</option>
+                    <option value="14:00">14:00</option>
+                    <option value="15:00">15:00</option>
+                    <option value="16:00">16:00</option>
+                    <option value="17:00">17:00</option>
+                    <option value="18:00">18:00</option>
+                    <option value="19:00">19:00</option>
+                    <option value="20:00">20:00</option>
+                    <option value="21:00">21:00</option>
+                    <option value="22:00">22:00</option>
+                    <option value="23:00">23:00</option>
+                    <option value="00:00">00:00</option>
+                </select>
+            </form>
+        </li>
+
+        <li>Hve mörg?
+            <form>
+                <select>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+                <option value="">10</option>
+                </select>
+            </form>
+        </li>
+
+        <li>Viltu taka eitthvað fram?
+            <form>
+                <label for="comment"></label><br>
+                <textarea id="comment" name="comment" rows="5" cols="40" placeholder=""></textarea><br><br>
+            </form>
+        </li>
+
+    </ul>
+
+    <h2>Panta mat</h2>
+    <ul>
+        <li>Viltu einhvern mat?
+            <form>
+                <select>
+                    <option value="">Pizzusneið og gos</option>
+                    <option value="">Kaffi og Kaka</option>
+                    <option value="Engan mat"></option>
+                </select>
+            </form>
+
+        </li>
+        <!--box sem er hægt að haka í-->
+        <li>Ofnæmi?
+            <form>
+                <label for="Hnetur">
+                    <input type="checkbox" id="option1" name="preference" value="Option1">
+                    Hnetur
+                </label><br>
+        
+                <label for="Egg">
+                    <input type="checkbox" id="option2" name="preference" value="Option2">
+                    Egg
+                </label><br>
+        
+                <label for="Hveiti">
+                    <input type="checkbox" id="option3" name="preference" value="Option3">
+                   Hveiti
+                </label><br>
+        
+                <label for="Mjólk">
+                    <input type="checkbox" id="option4" name="preference" value="Option4">
+                    Mjólk
+                </label><br>
+            </form>
+        
+        </li>
+
+        <li>Annað sem við eigum að vita?
+            <form>
+                <label for="comment"></label><br>
+                <textarea id="comment" name="comment" rows="5" cols="40" placeholder=""></textarea><br><br>
+                
+            </form>
+        </li>
+    </ul>
+    
+    <h2>Þínar upplýsingar</h2>
+    <ul>
+       
+            <form>
+                <label for="name">Nafn</label>
+                <input type="text" id="name" name="name" placeholder="">
+             <br><br>
+                <label for="email">Netfang</label>
+                <input type="text" id="email" name="email" placeholder="Laura@gmail.com">
+                <br> <br>
+              <label form="Sím">Sími</label>
+              <input type="text" id="sími" name="sími" placeholder="7756785">
+
+            </form>
+       
+        
+           
+
+
+       
+    </ul>
+
+    <h2>Samþykkja og panta</h2>
+    <ul>
+        
+        <form>
+
+        <label for="terms">
+            <input type="checkbox" id="terms" name="terms" value="accept">
+            Ég sammþykki skilmála Spilabúðarinnar 
+        </label><br>
+        </form>
+       <!--Senda Pöntun--> 
+            <input type="button" value="Senda pöntun" onclick="confirmSubmission()">
+        
+    </ul>
+
+
+    
+    <!--Footer-->
+    <footer>
+        <hr>
+        <h2>Opnunartími</h2>
+        <p>Mánudagur Lokað Þriðjudagur til fimmtudags 14:00-22:00 Föstudaga 14:00-00:00
+        Laugardaga 12:00-00:00 Sunnudaga 12:00-22:00</p>
+        <h2>Hér erum við</h2>
+        <p>Spilabúðin ehf.Spilgata 1 101 Reykjavík Sími 123-4567 <a href="spilabudin@example.com">spilabudin@example.org</a> </a></p>
+        
+        <h2>Samfélagsmiðlar</h2>
+        
+        <ul>
+            <li><a href="Facebook.com">Facebook</a></li>
+            <li><a href="YouTube.com">YouTube</a></li>
+            <li><a href="Instagram.com">Instagram</a></li> 
+        </ul>
+        
+        <a href="/index.html"><button>Til baka Forsíðu</button></a>
+</body>
+</html>
